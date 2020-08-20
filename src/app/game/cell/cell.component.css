@@ -5,4 +5,18 @@
     margin: 2px;
     background-color: rgb(205, 193, 180);
     border-radius: 4px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.cell-value {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    color: white;
+    margin:auto;
+    height: 30px;
 }
