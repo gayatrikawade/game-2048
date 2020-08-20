@@ -1,0 +1,8 @@
+.cell {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    margin: 2px;
+    background-color: rgb(205, 193, 180);
+    border-radius: 4px;
+}
