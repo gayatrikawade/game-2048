@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BoardComponent } from './game/board/board.component';
 import { CellComponent } from './game/cell/cell.component';
+import { GameService } from './game/game.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { CellComponent } from './game/cell/cell.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [GameService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
