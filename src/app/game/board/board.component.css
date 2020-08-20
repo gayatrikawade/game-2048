@@ -1,0 +1,30 @@
+div.header > * {
+  display: inline-block;
+}
+
+.header {
+  width: 336px;
+  margin: auto;
+}
+
+.board {
+    width: 336px;
+    margin: auto;
+}
+
+.score {
+  width: 220px;
+  text-align: left;
+}
+
+.new-game-button {
+  background-color: #776e65;
+  color: white;
+  padding: 8px 13px 10px 13px;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+.new-game-btn:active {
+  background-color: #cdc1b4;
+}
