@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cell',
@@ -12,4 +12,5 @@ export class CellComponent implements OnInit {
   ngOnInit() {
   }
 
+  @Input() cell;
 }

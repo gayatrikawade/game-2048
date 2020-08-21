@@ -18,6 +18,8 @@ export class BoardComponent implements OnInit {
 
   initGame(){
     this.cells = this.gameService.cells;
+    this.gameService.randomize();
+    this.gameService.randomize();
 
   }
 
